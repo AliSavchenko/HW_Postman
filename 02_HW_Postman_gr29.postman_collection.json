@@ -631,12 +631,12 @@
 					]
 				},
 				"url": {
-					"raw": "{{url}}/{{port}}",
+					"raw": "{{url}}{{port}}/{{endpoint}}",
 					"host": [
-						"{{url}}"
+						"{{url}}{{port}}"
 					],
 					"path": [
-						"{{port}}"
+						"{{endpoint}}"
 					]
 				}
 			},
